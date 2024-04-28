@@ -9,7 +9,7 @@
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
         <img src="" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        Rick and Morty
+        Rick and Morty API
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
             <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Sobre</router-link>
+            <router-link class="nav-link" to="/about">Sobre</router-link>
           </li>
         </ul>
       </div>
@@ -32,7 +32,9 @@
 </div>
 
 <footer class="bg-dark text-light">
-  Desenvolvido por João Gabriel | ADS - Unimar | 2024
+  Desenvolvido por João Gabriel | 
+  ADS - Unimar | 
+  {{new Date().getFullYear()}}
 </footer>
 
 </template>
@@ -46,5 +48,14 @@
     align-items: center;
     justify-content: center;
     height: 46px;
+  }
+  
+  body{
+    background-color: rgb(39, 43, 51);
+  }
+
+  .card{
+    display: flex;
+    flex-direction: row;
   }
 </style>
