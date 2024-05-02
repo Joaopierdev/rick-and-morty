@@ -1,6 +1,8 @@
 # rickandmorty
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto pensado para desenvolvimento e estruturação de uma página de personagens do Rick and Morty. Consumindo dados através de uma API pública e demonstrando junto a página HOME do site.
+
+Projeto contruído a partir do Framework VUE.JS para conexão com a API e criação de componentes e views, a biblioteca BOOTSTRAP com o objetivo de estruturação das páginas.
 
 ## Recommended IDE Setup
 
