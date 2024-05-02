@@ -74,4 +74,15 @@ body{
 .card ul li{
   font-size: 18px;
 }
+
+.data-about{
+  display: flex;
+
+}
+
+.data{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
 </style>
