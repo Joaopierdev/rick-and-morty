@@ -65,7 +65,7 @@ body{
   background-color: #4B4453;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 676px) {
   .card{
     flex-direction: column;
   }
@@ -75,14 +75,20 @@ body{
   font-size: 18px;
 }
 
-.data-about{
-  display: flex;
-
+.about-img{
+  border-radius: 50%;
 }
 
-.data{
+.about-me{
   font-size: 25px;
-  padding-bottom: 20px;
+}
+
+.about-data ul{
+  list-style: none;
+}
+
+.about-me{
+  padding-bottom: 40px;
 }
 
 </style>
